@@ -164,3 +164,18 @@ body
 {
     margin:0;
 }
+
+.footer
+{
+    background-color: black;
+    height:45px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.copyright
+{
+    color: aliceblue;
+    font-size: 12px;
+}
