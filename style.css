@@ -67,17 +67,17 @@ body
 {
     display:flex;
     flex-direction:column;
-
     align-items:center;
     background-color:rgb(82, 16, 16);
     height:250px;
     padding-bottom: 20px;;
 }
 
-.character-pictures
+.picture-section
 {
     display:flex;
-    gap:25px;
+    width:600px;
+    justify-content: space-between;
 }
 
 .information img
@@ -92,4 +92,32 @@ body
 {
     width:100px;
     text-align: center;
+}
+
+.quote
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:200px;
+    background-color:rgb(21, 20, 97)
+}
+
+.abyss-stare
+{
+    font-size:36px;
+    font-style:italic;
+    width:100%;
+}
+
+.quote-width
+{
+    width: 600px;
+}
+
+.source
+{
+    text-align: right;
+    font-weight: bold;
 }
