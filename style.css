@@ -1,0 +1,63 @@
+body
+{
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+.page
+{
+    display:flex;
+    flex-direction:column;
+}
+.topheader
+{
+    display:flex;
+    background-color: rgb(29, 38, 121);
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between; 
+    height: 40px;
+}
+.maintxt
+{
+    font-size:24px;
+    margin-left:100px;
+}
+
+.links
+{
+    display:flex;
+    gap:32px;
+    font-size:18px;
+    margin-right:100px;
+}
+
+.wallpaper
+{
+    background-color: rgb(29, 38, 121);
+    display:flex;
+    justify-content: space-between;
+    padding:20px 100px 20px 100px;
+    align-items:center;
+}
+
+.title .p1
+{
+    font-size:48px;
+}
+
+.p1, .p2
+{
+    margin:0;
+}
+
+.title button
+{
+    background-color:rgb(29, 96, 221);
+    border: 0;
+    border-radius: 4px;
+    color:white;
+    padding:5px;
+    width: 80px;
+}
