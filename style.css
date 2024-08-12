@@ -17,7 +17,7 @@ body
     justify-content: center;
     align-items: center;
     justify-content: space-between; 
-    height: 40px;
+    height: 60px;
 }
 .maintxt
 {
@@ -38,7 +38,7 @@ body
     background-color: rgb(29, 38, 121);
     display:flex;
     justify-content: space-between;
-    padding:20px 100px 20px 100px;
+    padding:20px 80px 20px 80px;
     align-items:center;
 }
 
@@ -50,6 +50,7 @@ body
 .p1, .p2
 {
     margin:0;
+    width: 75%;
 }
 
 .title button
